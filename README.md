@@ -1,2 +1,7 @@
-# Sentimental_analysis_of_Tweets
-Sentiment analysis of acquired tweets and obtaining the sentiment polarity as output for every tweet
+# Sentiment analysis of Tweets
+Obtaining the sentiment polarity as output for every tweet!
+
+### Application under construction :no_entry_sign:
+I need a few days to finish the project and describe the functionality :memo:
+  
+
