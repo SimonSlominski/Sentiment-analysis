@@ -2,7 +2,7 @@
   
 ## Overview
 
-In this repository you will find several versions of sentimental analysis. Each version has its own separate directory.
+In this repository you will find several versions of sentiment analysis. Each version has its own separate directory.
 
 1. Sentiment analysis of Tweets for keywords
 2. Sentiment analysis of Tweets for a specific user
