@@ -33,7 +33,7 @@ In project directory create credentials.py and put there data (keys and tokens) 
 
 **1.3 Test Twitter API connection**
 
-*Files: test_twitter_connection.py
+*Files: test_twitter_connection.py*
 
 Before we'll get further, let's test and check our conection with Twitter App. To conduct test just run the test_twitter_connection.py script. 
 
@@ -43,7 +43,7 @@ If you get authentication errors, check your keys and tokens in the credentials 
 
 **1.4 Download Tweets**
 
-*Files: doAnalysis.py
+*Files: doAnalysis.py*
 
 After creating function 'twitter_api_connection', its time to download some tweets. To do this you have to pick a username (for instance, I've chosen Donald Trump to check if the sentiment of his tweets is similar to his behavior).
 
