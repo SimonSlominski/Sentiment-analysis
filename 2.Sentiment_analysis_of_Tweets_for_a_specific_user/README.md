@@ -1,12 +1,12 @@
-## Sentiment analysis of Tweets for a specific user
+# Sentiment analysis of Tweets for a specific user
 
-### Overview:
+## Overview:
 To conduct sentiment analysis, perform the following steps:
 1. Collect twitter data
 2. Do sentiment analysis
 3. Do statistics and data visualization (optionally)
 
-#### Requirements:
+### Requirements:
 - Python 3.7
 - NumPy
 - Pandas
@@ -31,7 +31,17 @@ In project directory create credentials.py and put there data (keys and tokens) 
 - access_token = "your access token"
 - access_token_secret = "your access token secret"
 
-**1.3 Download Tweets**
+**1.3 Test Twitter API connection**
+
+*Files: test_twitter_connection.py
+
+Before we'll get further, let's test and check our conection with Twitter App. To conduct test just run the test_twitter_connection.py script. 
+
+If everything works you will see the text of tweet from twitter_user (default = realDonalTrump).
+
+If you get authentication errors, check your keys and tokens in the credentials file. 
+
+**1.4 Download Tweets**
 
 *Files: doAnalysis.py
 
@@ -40,9 +50,7 @@ After creating function 'twitter_api_connection', its time to download some twee
 Then put your username to the variable called 'twitter_user'. Default count number of downloading tweets is 150. 
 
 
-### STEP 2 - DataFrame
-
-**2.1. Creating dataframe with Pandas**
+### STEP 2 - Creating DataFrame with Pandas
 
 With this line of code we could create a basic dataframe with collected Tweets:
 
@@ -61,14 +69,23 @@ If you use this code: `print(dir(tweets[0]))` you will see all the elements you 
 
 ### STEP 3 - Sentiment analysis
 
-Textblob allow us to do sentiment analysis with ease. Textblob check every tweet and set polarity:
-- Positiv >0
+Textblob allows us to do sentiment analysis with ease. Textblob checks every tweet and sets polarity accordingly:
+- Positive >0
 - Neutral =0
 - Negative <0
 
+Consequently, we'll get an extra column which contains the sentiment analysis result. 
 
 ### STEP 4 - Results
 
+In the end, we would like to know the percentage structure of results. To verify the results, we will count the number for each group and determine the percentages.
+
+Results:
+- Positive tweets: 47.33%
+- Neutral tweets: 31.33%
+- Negative tweets: 21.33%
+
+Keep in mind that your results could be different. It depends on the set of tweets. (Last updated: January 16th, 2019.)
 
 
 
