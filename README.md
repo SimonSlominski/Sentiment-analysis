@@ -4,10 +4,10 @@
 
 In this repository you will find several versions of sentiment analysis. Each version has its own separate directory.
 
-1. Sentiment analysis of Tweets for keywords
-2. Sentiment analysis of Tweets for a specific user
-3. Sentiment analysis of Tweets in realtime
-4. Sentiment analysis of Texts
+1. Sentiment analysis of Tweets for keywords          :no_entry_sign: Work in progress
+2. Sentiment analysis of Tweets for a specific user :white_check_mark:
+3. Sentiment analysis of Tweets in realtime           :no_entry_sign: Work in progress
+4. Sentiment analysis of Texts                        :no_entry_sign: Work in progress
 
 
 Before we start coding, let's understand exactly what sentiment analysis is. According to definition:
@@ -18,7 +18,3 @@ Sentiment analysis is also known as **opinion mining**.
 
 Source: https://www.techopedia.com
 
-
-
-
-### Application under construction :no_entry_sign:
